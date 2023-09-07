@@ -6,6 +6,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Pegasi',
+			defaultLocale: 'en',
 			social: {
 				github: 'https://github.com/yesabhishek/pegasi',
 			},
