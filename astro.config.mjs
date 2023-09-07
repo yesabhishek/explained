@@ -7,7 +7,7 @@ export default defineConfig({
 		starlight({
 			title: 'Pegasi',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/yesabhishek/pegasi',
 			},
 			customCss: [
 				'./src/styles/custom.css',
@@ -17,7 +17,7 @@ export default defineConfig({
 					label: 'Cool Guides',
 					items: [
 
-						{ label: 'Svelte Development & Deployment', link: '/cool-guides/svelte/' },
+						{ label: 'Sveltekit under 30 mins', link: '/cool-guides/svelte/' },
 					],
 				},
 				{
