@@ -5,10 +5,10 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Pegasi',
+			title: '🍟Nerd Nuggets',
 			defaultLocale: 'en',
 			social: {
-				github: 'https://github.com/yesabhishek/pegasi',
+				github: 'https://github.com/yesabhishek/Nerd Nuggets',
 			},
 			customCss: [
 				'./src/styles/custom.css',
@@ -18,50 +18,19 @@ export default defineConfig({
 					label: 'Cool Guides',
 					items: [
 
-						{ label: 'Sveltekit under 30 mins', link: '/cool-guides/svelte/' },
+						{ label: 'Sveltekit under 30 mins', link: '/cool-guides/svelte' },
+						{ label: 'Create PYPI library', link: '/cool-guides/pypi' },
 					],
 				},
 				{
 					label: 'Backend Development',
 					items: [
-
-						{ label: 'Django', link: '/backend/django/' },
-						{ label: 'Express', link: '/backend/express-js/' },
-						{ label: 'FastAPI', link: '/backend/fast-api/' },
-						{ label: 'Go', link: '/backend/go-lang/' },
+						{ label: 'Understand Django', link: '/backend/django/' },
+						{ label: 'Configure Django with Postgres', link: '/backend/django-with-postgres/' },
+						
 					],
 					autogenerate: { directory: 'reference' },
-				},
-				{
-					label: 'Frontend Development',
-					items: [
-						{ label: 'Svelte', link: '/frontend/svelte/' },
-						{ label: 'React', link: '/frontend/react/' },
-						{ label: 'Next', link: '/frontend/next/' },
-						{ label: 'Vue', link: '/frontend/vue/' },
-						{ label: 'Tailwind', link: '/frontend/tailwind/' },
-						{ label: 'Animation', link: '/frontend/animation/' },
-					],
-				},
-				{
-					label: 'Cloud Services',
-					items: [
-						{ label: 'AWS', link: '/cloud-services/aws/' },
-						{ label: 'Google Cloud Platform', link: '/cloud-services/google-cloud/' },
-						{ label: 'Vercel', link: '/cloud-services/vercel/' },
-						{ label: 'Supabse', link: '/cloud-services/supabase/' },
-						{ label: 'Azure', link: '/cloud-services/azure/' },
-					],
-				},
-				{
-					label: 'Data Engineering',
-					items: [
-						{ label: 'Extract, transform & load', link: '/data-engineering/etl/' },
-						{ label: 'Data Cleaning', link: '/data-engineering/data-cleaning/' },
-						{ label: 'Excel', link: '/data-engineering/excel/' },
-						{ label: 'Impact Analysis', link: '/data-engineering/impact-analysis/' },
-					],
-				},
+				}
 			],
 		}),
 	],

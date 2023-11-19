@@ -302,4 +302,4 @@ apps and is subject to change in future.
 Please read the official svelekit
 documentation for more info.
 
-If you found any challenges in the way or there are any issues/queries, please feel free to raise an issue in this [pegasi](https://github.com/yesabhishek/pegasi/issues). 
+If you found any challenges in the way or there are any issues/queries, please feel free to raise an issue in this [Nerd Nuggets](https://github.com/yesabhishek/Nerd Nuggets/issues). 

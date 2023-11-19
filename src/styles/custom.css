@@ -1,6 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Open-Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&display=swap');
 
 html,
 body {
-    font-family: 'Open-Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+.astro-m46x6ez3 {
+    font-family: 'Syne', sans-serif;
+}
+
+#-quick-links,
+#_top {
+    font-family: 'Syne', sans-serif;
 }

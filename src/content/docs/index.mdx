@@ -1,37 +1,45 @@
 ---
-title: Pegasi
-description: Software Development Blogs On Steroids💪🏻 
+title: 🍟Nerd Nuggets
+description: Crispy and well cooked software development blogs 
 template: splash
 hero:
-  tagline: Software Development Blogs On Steroids💪🏻
+  tagline: Crispy and well cooked software development blogs!
   image:
     file: ../../assets/hero-image.png
   actions:
     - text: Explore Now
-      link: /cool-guides/svelte/
+      link: /backend/django
       icon: right-arrow
       variant: primary
-    - text: Read the latest blog
-      link: /backend/django/
-      icon: external
+    - text: Star us on GitHub
+      link: https://github.com/yesabhishek/NerdNuggets
+      icon: github
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-## ✨Latest Blogs
+## 🔗 Quick Links
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+<CardGrid>
+	<LinkCard 
+		title="Create your own PYPI library"
+		href="/cool-guides/pypi"
+		description="Complete explanation and hand-on to write your first library!"
+	/>
+	<LinkCard 
+		title="Configure your Django database with Postgres"
+		href="/backend/django-with-postgres"
+		description="Complete explanation and hand-on to write your first library!"
+	/>
+	<LinkCard 
+		title="Create Svelte App & deploy it under 30 mins"
+		href="/cool-guides/svelte"
+		description="Complete explanation and hand-on to write your first library!"
+	/>
+	<LinkCard 
+		title="🐞 Found any bug or issues!"
+		href="https://github.com/yesabhishek/NerdNuggets/issues"
+		description="Please create an issue here."
+	/>
 </CardGrid>
 
